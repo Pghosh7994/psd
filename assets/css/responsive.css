@@ -1,0 +1,46 @@
+@media screen and (max-width: 778px) {
+  .pm-5 {
+/*    padding-top: 50px;*/
+    margin: 15px;
+  }
+    .ft-5{
+        margin-top: -20px;
+    }
+    .newsletter-heading h1{
+        font-size: 24px;
+    }
+    .newsletter-heading p{
+        font-size: 12px;
+    }
+    .newsletter .container .input-group{
+        padding-left: 100px;
+    }
+    .newsletter .container .input-group input[type=email] {
+        width: 100%;
+/*        height: 20px;*/
+    }
+    
+/*
+    .footer_width{
+        width: 10px;
+    }
+*/
+}
+@media screen and (min-width: 778px) {
+    .newsletter .container .input-group{
+        padding-left: 10px;
+    }
+}
+@media screen and (max-width: 360px) {
+    .slider{
+     margin-top: 0px
+    }
+    
+     .newsletter .container .input-group input[type=email] {
+        width: 80%;
+/*        height: 20px;*/
+    }
+    .newsletter .container .input-group{
+        padding-left: 0px;
+    }
+}
